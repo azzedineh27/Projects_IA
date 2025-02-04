@@ -1,0 +1,77 @@
+Fiche de cours sur l'IA : 
+
+On utilise l'informatique, la linguistique et l'intelligence artificielle dans l'IA pas seulement des calculs etc
+
+NLP : Traitement du langage naturel (permettre aux machines de comprendre du langage humain) 
+
+- Prétraitement des données (tokenisation, lowercasing, stopwords, stemming/lemmatisation) 
+On va transformer les phrases en tableaux de mots, on va tout mettre en minuscule, 
+on va enlever les petits mots inutiles fréquents et mettre les mots à la racine (manger=mang)
+
+On utilise principalement NLTK (Natural Language Toolkit) pour le faire en dev python avec d'autres
+
+- Représentation du Texte : On transforme le texte en valeurs numériques
+Bag of Words (BoW), TF-IDF, Word Embeddings =>
+Compter les occurences de chaque mot, Les mots pas importants ne sont pas trop jugés(et,de..), transformer les mots en matrice de vecteurs
+
+- Analyse et compréhension : On analyse les textes et essaie d'en tirer des conclusions sur les sentiments etc 
+Analyse de sentiments, Reconnaissance des Entités Nommées NER, Tagging des parties du texte (POS Tagging), Parsing
+
+Détecter l’émotion d’un texte, Identifier les entités dans un texte (personnes, lieux, dates), Identifier la fonction grammaticale de chaque mot, 
+Analyser la structure syntaxique d’une phrase
+
+- Réponse et génération de texte :  On réagit aux donnés transmises etc
+
+Premier projet chatbot créé : 
+reflections = dictionnaire pour transformer les je en vous etc pour les réponses
+chat.converse() => converse est utilisé pour lancer la conversation
+on peut faire des questions réponses selon des expressions régulières et en utilisant la tokenisation
+
+Deuxieme projet créé : 
+
+Analyse des sentiments avec des phrases s'entrainement et reconnaissance des mots dans un texte. 
+Utilisation du théorème de Naive Bayes, du NER, du POS Tagging avec la bibli scikit-learn et spacy
+Sentiments à revoir car pas précis
+
+
+
+A utiliser : les API NLP  et HuggingFace, LangChain frameworks PyTorch et TensorFlow également Playwright, Cucumber
+
+HuggingFace : Plateforme ou on trouve des modèles d'algo IA pour pleins de taches, on trouve aussi plein de prompts avec des données pour entrainer le bot
+Model (algo) => Datasets (prompts de données)
+
+faire des recherches sur le langage R utilisé pour les données
+
+
+
+Exemples IA pour entreprise : 
+
+Chatbots intelligents
+Automatisent le service client et répondent aux FAQ en temps réel, améliorant l'efficacité et la disponibilité du support client.
+
+Analyse des sentiments
+Évaluent les sentiments des clients à partir de commentaires ou réseaux sociaux pour mieux comprendre leur satisfaction et anticiper les problèmes.
+
+Gestion automatisée des documents
+Extraient des données importantes (comme des factures ou contrats) via OCR, réduisant le temps manuel consacré aux tâches répétitives.
+
+Génération automatique de rapports
+Créent des synthèses ou rapports à partir de données brutes, facilitant l’analyse et la prise de décision.
+
+Recommandations personnalisées
+Offrent des suggestions adaptées (produits, contenus, services) pour améliorer l'expérience client et stimuler les ventes.
+
+Outils de productivité
+Optimisent les tâches quotidiennes comme la planification, la priorisation, ou la synthèse automatique de documents ou e-mails.
+
+Prévisions et prédictions
+Anticipent les tendances, les ventes ou les besoins en stock grâce à des modèles de machine learning.
+
+Détection de fraude
+Identifient les anomalies dans les transactions ou comportements inhabituels pour renforcer la sécurité.
+
+Assistance RH
+Tri des CV, chatbots RH pour répondre aux questions internes, et analyse des performances pour simplifier la gestion RH.
+
+Veille concurrentielle
+Collectent des données sur les concurrents et le marché (comme les prix ou mentions en ligne) pour aider à ajuster les stratégies.
